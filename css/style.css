@@ -1,0 +1,459 @@
+
+
+
+.form-control:focus{
+outline: none !important;
+    border:1.5px solid #19b7bb;
+    box-shadow:none;
+}
+.form-control{
+	 border:1.5px solid #eaeaf3;
+	border-radius: 10px;
+	margin-top: 5%;
+	resize: none;
+	max-height: 56px;
+	max-width: 552px;
+}
+select{
+	max-height: 56px;
+}
+
+.form__dropdown {
+  position: relative;
+  width: 552px;
+
+}
+.dropdown{
+  width: 552px;
+
+}
+.dropdown input {
+  width: 100%;
+  height: 56px;
+  padding-left: 50px;
+  border: 1px solid #EAEAF3;
+  border-radius: 12px;
+  outline: none;
+  background: #FFFFFF;
+  font-family: Ubuntu;
+  line-height: 24px;
+  font-size: 18px;
+  font-weight: 300;
+}
+.dropdown input:focus, .dropdown input:hover{
+  border: 1px solid #19B7BB;
+  transition: all 0.5s ease 0s;
+}
+.arrow_con svg:hover, .arrow_con svg:focus{
+  transform: rotate(180deg);
+  fill: #fff;
+  transition: all 0.5s ease 0s;
+}
+.dropdown .button__question {
+  position: absolute;
+  left: 0;
+  top: 0;
+  margin: 16px 0 16px 17px;
+  color: #BCBCC7;
+  background: url(../img/input-question-icon.svg) no-repeat;
+  height: 30px;
+  width: 22px; 
+  border: none;
+  cursor: pointer;
+}
+.dropdown .button__question:focus, .dropdown .button__question:hover{
+  color: #252729;
+}
+.buttonn__arrow{
+  position: absolute;
+  right: 0;
+  top: 0;
+  margin: 16px 16px 16px 0;
+  width: 24px;
+  height: 24px;
+  border: none;
+  background-color: #EAEAF3;
+  border-radius: 6px;
+  cursor: pointer;
+}
+.buttonn__arrow:hover, .buttonn__arrow:focus{
+  background-color: #19B7BB;
+  transition: all 0.5s ease 0s;
+}
+.arrow_con{
+  display: block;
+  position: relative;
+  z-index: 4;
+  width: 100%;
+}
+.arrow_con svg{
+  fill: #BCBCC7;
+}
+.arrow_con svg:hover, .arrow_con svg:focus{
+  transform: rotate(180deg);
+  fill: #fff;
+  transition: all 0.5s ease 0s;
+}
+
+
+
+.dropdown-child {
+box-shadow:-8px 8px 40px #bcbcc7;
+  width: 552px;
+  position: absolute;
+  top: 60px;
+  display: none;
+  background-color: #fff;
+  border-radius: 12px;
+}
+.dropdown-child a {
+  color: #252729;
+  font-family: Ubuntu;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 24px;
+  padding: 8px 0 8px 16px;
+  border-bottom: 1px solid #EAEAF3;
+  text-decoration: none;
+  display: block;
+}
+.dropdown-child a:hover{
+  color: #BCBCC7;
+  transition: all 0.5s ease 0s;
+}
+.dropdown-child a:last-child {
+  border-bottom: 0px solid #EAEAF3;
+}
+.dropdown:hover .dropdown-child {
+	box-shadow: 1 black;
+  display: block;
+}
+.spas{
+  position: static;
+  width: 94px;
+  height: 24px;
+  left: 32px;
+  top: 16px;
+  font-family: Ubuntu;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+
+
+  color: #FFFFFF;
+
+
+
+
+}
+.bt1{
+background: linear-gradient(to right, #1ACACE, #19B7BB
+);
+font-family: Ubuntu;
+left: 32px;
+top: 16px;
+border-radius: 12px;
+line-height: 24px;
+size: 18px;
+ color: #FFFFFF;
+
+  flex-direction: row;
+  align-items: center;
+  padding: 16px 32px;
+  text-align: top;
+ 
+  border: none;
+}
+.bt2{
+background: linear-gradient(to right, #1ACACE, #19B7BB
+);
+box-shadow: 0px 8px 16px rgba(25, 183, 187, 0.32);
+font-family: Ubuntu;
+left: 32px;
+top: 16px;
+border-radius: 12px;
+line-height: 24px;
+size: 18px;
+ color: #FFFFFF;
+
+  flex-direction: row;
+  align-items: center;
+  padding: 16px 32px;
+  text-align: top;
+ 
+  border: none;
+}
+.bt3{
+background: linear-gradient(to right, #1ACACE, #19B7BB
+);box-shadow: 0px 8px 16px rgba(25, 183, 187, 0.32), inset 0px 0px 16px rgba(0, 0, 0, 0.15);font-family: Ubuntu;
+left: 32px;
+top: 16px;
+border-radius: 12px;
+line-height: 24px;
+size: 18px;
+ color: #FFFFFF;
+
+  flex-direction: row;
+  align-items: center;
+  padding: 16px 32px;
+  text-align: top;
+ 
+  border: none;
+}
+
+.telega{
+position: absolute;
+width: 264px;
+height: 48px;
+left: 31px;
+top: 379px;
+
+/* white */
+
+background: #FFFFFF;
+/* lighGrey_2 */
+
+border: 1px solid #EAEAF3;
+box-sizing: border-box;
+/* btnShadow */
+
+box-shadow: 0px 8px 16px rgba(116, 115, 115, 0.15);
+border-radius: 12px;
+}
+
+.bt4{
+background:#FFFFFF;
+box-shadow: 0px 8px 16px 0 #bcbcc7 ;
+font-family: Ubuntu;
+width: 264px;
+height: 48px;
+left: 31px;
+top: 679px;
+border-radius: 12px;
+line-height: 24px;
+size: 18px;
+ color: #FFFFFF;
+
+
+  flex-direction: row;
+  align-items: center;
+  padding: 16px 32px;
+  text-align: top;
+ 
+  border: none;
+}
+.bt4 img{
+	position: relative;
+	left: 0%;
+right: 0%;
+bottom: 2px;
+;
+}
+.buttonn__arrow{
+  position: absolute;
+  right: 0;
+  top: 0;
+  margin: 16px 16px 16px 0;
+  width: 24px;
+  height: 24px;
+  border: none;
+  background-color: #EAEAF3;
+  border-radius: 6px;
+  cursor: pointer;
+}
+.buttonn__arrow:hover, .buttonn__arrow:focus{
+  background-color: #19B7BB;
+  transition: all 0.5s ease 0s;
+}
+.spas2{
+	position: relative;
+margin: 5px;
+width: 171px;
+height: 24px;
+left: 10px;
+
+font-family: Ubuntu;
+font-style: normal;
+font-weight: 300;
+font-size: 18px;
+line-height: 24px;
+/* identical to box height, or 133% */
+
+
+/* black */
+
+color: #252729;
+
+}
+.dut {
+width: 160px;
+height: 40px;
+
+  border: 1px solid #EAEAF3;
+  border-radius: 25px;
+  outline: none;
+  background: #FFFFFF;
+  font-family: Ubuntu;
+  line-height: 24px;
+  font-size: 18px;
+  font-weight: 300;
+}
+ .dut{
+
+ text-align: left;  
+ position: absolute;
+  padding-left: 50px;}
+.dut1 {
+  width: 122px;
+  height: 140px;
+  border: 1px solid #EAEAF3;
+  border-radius: 25px;
+  outline: none;
+  background: #FFFFFF;
+  font-family: Ubuntu;
+  line-height: 24px;
+  font-size: 18px;
+  font-weight: 300; 
+}
+
+
+a:hover {
+   color: #BCBCC7;
+  transition: all 0.5s ease 0s
+}
+.dropdown-menu a{
+  text-decoration: none;
+}
+.dut1 li:last-child{
+  border-bottom: 0px;
+}
+
+.dut2{
+  margin: 8px 0;  
+}
+.inst{
+position: absolute;
+border-radius: 50px;
+width: 40px;
+height: 40px;
+align-content: center;
+/* white */
+
+background: #FFFFFF;
+/* btnShadow */
+
+box-shadow: 0px 8px 16px #bcbcc7;
+
+}
+.inst img{
+	margin: 10px;
+}
+.inst:hover{
+	background-color: #19b7bb;
+
+}
+
+.inst2{
+position: absolute;
+border-radius: 50px;
+width: 40px;
+height: 40px;
+align-content: center;
+/* white */
+
+background: #19b7bb;
+/* btnShadow */
+
+box-shadow: 0px 8px 16px #bcbcc7;
+
+}
+.inst2 img{
+	margin: 10px;
+}
+.inst2:hover{
+	background-color: #19b7bb;
+
+}
+.inst3{
+position: absolute;
+box-shadow: 0px 8px 16px rgba(116, 115, 115, 0.15), inset 0px 0px 8px rgba(0, 0, 0, 0.15);
+border-radius: 50px;
+width: 40px;
+height: 40px;
+align-content: center;
+/* white */
+
+background: #19b7bb;
+/* btnShadow */
+
+box-shadow: 0px 8px 16px #bcbcc7;
+
+}
+.inst3 img{
+	margin: 10px;
+}
+.inst3:hover{
+	background-color: #19b7bb;
+	box-shadow: 0px 8px 16px rgba(116, 115, 115, 0.15), inset 0px 0px 8px rgba(0, 0, 0, 0.15);
+}
+ 
+ h1{font-family: Ubuntu;
+font-style: normal;
+font-weight: bold;
+font-size: 64px;
+line-height: 80px;
+/* identical to box height, or 125% */
+letter-spacing: 0.05em;
+color: #000000;"}
+h2{font-family: Ubuntu;
+font-style: normal;
+font-weight: bold;
+font-size: 48px;
+line-height: 64px;
+/* identical to box height, or 133% */
+letter-spacing: 0.03em;
+color: #000000;}
+h3{
+font-family: Ubuntu;
+font-style: normal;
+font-weight: 500;
+font-size: 36px;
+line-height: 48px;
+/* identical to box height, or 133% */
+letter-spacing: 0.03em;
+color: #000000;">Heading}
+h4 {style="font-family: Ubuntu;
+font-style: normal;
+font-weight: normal;
+font-size: 32px;
+line-height: 40px;}
+h5{font-family: Ubuntu;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 32px;}
+h6 {font-family: Ubuntu;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 24px;
+/* identical to box height, or 133% */}
+.endg{
+	position: absolute;
+width: 371px;
+height: 168px;
+left: 635px;
+top: 715px;
+
+font-family: Ubuntu;
+font-style: normal;
+font-weight: 300;
+font-size: 18px;
+line-height: 24px;
+/* or 133% */
+
+
+color: #000000;
+}

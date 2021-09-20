@@ -1,0 +1,74 @@
+01
+<select onchange="fn(this.selectedIndex)">
+02
+<option>Значение 1</option>
+03
+<option>Значение 2</option>
+04
+<option>Значение 3</option>
+05
+</select>
+06
+Средней важности
+07
+<select>
+08
+<option>Значение 1</option>
+09
+<option>Значение 2</option>
+10
+<option>Значение 3</option>
+11
+</select>
+12
+Вообще не важно
+13
+<select>
+14
+<option>Значение 1</option>
+15
+<option>Значение 2</option>
+16
+<option>Значение 3</option>
+17
+</select>
+18
+</form>
+19
+<script>
+
+function fn(index){
+  
+
+    selects=document.getElementsByTagName('select');
+
+    val=selects[0].options[index].value;
+
+     
+
+    for(var i=0;i<selects[1].options.length;i++){
+
+        if(val==selects[1].options[i].value){
+
+            selects[1].options[i]=null
+
+            }
+
+        }
+
+            for(var j=0;j<selects[2].options.length;j++){
+
+        if(val==selects[2].options[j].value){
+
+            selects[2].options[j]=null
+
+            }
+
+        }
+
+     
+
+ 
+
+    }
+____________
